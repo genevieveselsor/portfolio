@@ -12,11 +12,30 @@
     <img src="images/cutedog.jpeg" alt="a picture of a super cute dog">
     <link rel="stylesheet" href="style.css" />
     <nav>
-        <a href="https://genevieveselsor.github.io/portfolio/">Home</a>
-        <a href="https://genevieveselsor.github.io/portfolio/projects/">Projects</a>
-        <a href="https://genevieveselsor.github.io/portfolio/contact/">Contact</a>
-        <a href="https://github.com/genevieveselsor" target="_blank">GitHub</a>
+        <ul>
+            <li><a href="https://genevieveselsor.github.io/portfolio/">Home</a></li>
+            <li><a href="https://genevieveselsor.github.io/portfolio/projects/">Projects</a></li>
+            <li><a href="https://genevieveselsor.github.io/portfolio/contact/">Contact</a></li>
+            <li><a href="https://github.com/genevieveselsor" target="_blank">GitHub</a></li>
+        </ul>
     </nav>
+
+    <form action="mailto:gselsor@ucsd.edu" method="post" enctype="text/plain">
+        <label>
+            Email:
+            <input name="email" type="email" />
+        </label>
+        <label>
+            Subject:
+            <input name="subject" />
+        </label>
+        <label>
+            Body:
+            <textarea name="body">
+            </textarea>
+        </label>
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
