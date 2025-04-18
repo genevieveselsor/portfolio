@@ -27,7 +27,7 @@ document.body.prepend(nav);
 
 const BASE_PATH = (location.hostname === "localhost" || location.hostname === "127.0.0.1")
 ? "/"                  // Local server
-: "/website/";         // GitHub Pages repo name
+: "/portfolio/";         // GitHub Pages repo name
 
 for (let p of pages) {
     let url = !p.url.startsWith("http") ? BASE_PATH + p.url : p.url;
@@ -35,7 +35,6 @@ for (let p of pages) {
     let a = document.createElement('a');
     a.href = url;
     a.textContent = title;
-    nav.append(a);
 
     a.classList.toggle(
         'current',
@@ -46,7 +45,7 @@ for (let p of pages) {
         a.target = "_blank";
       }
     
-      nav.append(a);
+    nav.append(a);
   }
 
 document.body.insertAdjacentHTML(
