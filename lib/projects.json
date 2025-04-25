@@ -2,13 +2,13 @@
     {
         "title": "Exploratory Visualization",
         "year": "2025",
-        "image": "../images/visualization copy.svg",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Visualized the relationship between price and food processing score for store brand ice creams at Walmart and Whole Foods."
     },
     {
         "title": "Recipes and Ratings",
         "year": "2025",
-        "image": "../images/dsc80vis.png",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Explored the relationship between a recipe's convenience and rating and built a linear regression model to predict the minutes needed to prepare a recipe."
     },
     {
