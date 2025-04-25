@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Exploratory Visualization",
+        "year": "2025",
+        "image": "../images/visualization copy.svg",
+        "description": "Visualized the relationship between price and food processing score for store brand ice creams at Walmart and Whole Foods."
+    },
+    {
+        "title": "Recipes and Ratings",
+        "year": "2025",
+        "image": "../images/dsc80vis.png",
+        "description": "Explored the relationship between a recipe's convenience and rating and built a linear regression model to predict the minutes needed to prepare a recipe."
+    },
+    {
+        "title": "Nulla voluptatibus consequatur sed.",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ullam esse voluptatibus facere temporibus qui quaerat porro amet tempora aspernatur non vel accusantium et pariatur, iure voluptate laboriosam veritatis recusandae mollitia! Rerum cumque dignissimos nulla, porro accusantium laboriosam fuga?"
+    },
+    {
+        "title": "Voluptatum vitae doloribus aliquam.",
+        "year": "2025",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Ratione, necessitatibus aspernatur dolor quidem earum exercitationem ut enim minima delectus fugiat impedit saepe atque? Eum temporibus possimus rem ex in facere, magni consequatur suscipit? Cupiditate placeat repudiandae eius quam?"
+    },
+    {
+        "title": "Aliquam maxime soluta unde!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Odio architecto sint non laborum itaque animi amet ipsum tempore totam labore, sapiente ut libero nesciunt corrupti dolorem delectus natus sequi nobis commodi id officiis. Quod labore nam voluptas dignissimos!"
+    },
+    {
+        "title": "Cum quibusdam doloremque minima!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Architecto aut itaque consequatur alias soluta est repellat deserunt quo, facilis, obcaecati qui iure eveniet nostrum perferendis. Iusto delectus voluptate, architecto ea, dolor autem consectetur minus asperiores, ex id ullam?"
+    },
+    {
+        "title": "Ex harum minima quae!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Nisi, recusandae similique cum porro voluptas voluptate quasi saepe harum deserunt? Quasi eos minus, distinctio dignissimos quae eligendi ex. Laborum voluptas incidunt voluptatem perspiciatis tenetur molestiae quidem deleniti aperiam aspernatur."
+    },
+    {
+        "title": "Esse at iusto assumenda.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Doloremque excepturi blanditiis doloribus fugiat a quas laboriosam eius enim architecto optio? Quo natus assumenda at non quae illum fuga eligendi ut in facere. Perferendis temporibus exercitationem reprehenderit amet tempore!"
+    },
+    {
+        "title": "Nobis eaque adipisci minus.",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Velit facilis tempore ab quam hic eveniet eum exercitationem sunt accusantium dolor provident est sapiente beatae molestias modi, cum nostrum? Eveniet aliquam ab minus. Incidunt minima veritatis aliquid ipsum praesentium!"
+    },
+    {
+        "title": "Voluptates est mollitia iusto!",
+        "year": "2024",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Corporis, blanditiis? Magnam expedita sapiente sunt veritatis sequi error eum inventore nobis quibusdam, fuga modi optio illo recusandae, est eos fugiat nostrum sit quia praesentium soluta autem eligendi vero earum."
+    },
+    {
+        "title": "Itaque obcaecati quam animi?",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Sapiente non magni facilis? Nihil deleniti esse nemo aperiam aspernatur. Ad facilis mollitia et, ab nostrum quas quod recusandae, quidem sint alias eos quaerat exercitationem in minus veritatis sed! Dolorum."
+    },
+    {
+        "title": "Id voluptates aut ipsam.",
+        "year": "2023",
+        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "description": "Inventore distinctio, nesciunt quisquam iusto fuga, quidem aut nulla eius nemo pariatur maiores quibusdam corrupti unde. Cum doloribus quo aut laudantium earum molestiae, dolores, beatae saepe quas culpa velit fugiat!"
+    }
+]
