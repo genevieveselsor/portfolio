@@ -315,3 +315,112 @@ path.selected {
 path {
   cursor: pointer;
 }
+
+#stats dl {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  gap: 1em;
+  overflow: hidden;
+}
+
+#stats dt {
+  font-weight: bold;
+  grid-row: 1;
+}
+
+#stats dt,
+#stats dd {
+  border-right: 1px solid var(--color-accent);
+  border-bottom: 1px solid var(--color-accent);
+  padding: 0.5rem;
+  margin: 0.5em;
+}
+
+#commit-tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+  padding: 0.75em 1em;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  font-size: 0.9em;
+  color: #333;
+  z-index: 1000;
+}
+
+#commit-tooltip dt {
+  font-weight: bold;
+  color: #666;
+  margin: 0;
+}
+
+#commit-tooltip dd {
+  margin: 0 0 0.5em 0;
+}
+
+dl.info {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.25em 0.5em;
+  transition-duration: 500ms;
+  transition-property: opacity, visibility;
+}
+
+dl.info[hidden]:not(:hover, :focus-within) {
+  opacity: 0;
+  visibility: hidden;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+  fill-opacity: 0.7;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  text-align: center;
+  gap: 1em;
+  border-radius: 8px; /* optional rounded corners */
+  overflow: hidden;
+}
+
+.stats dt {
+  font-weight: bold;
+  grid-row: 1;
+}
+
+.stats dt,
+.stats dd {
+  border-right: 1px solid var(--color-accent);
+  border-bottom: 1px solid var(--color-accent);
+  padding: 0.5rem;
+  margin: 0.5em;
+}
