@@ -373,7 +373,7 @@ async function loadData() {
 
   function onTimeSliderChange() {
     const slider = document.getElementById('commit-progress');
-    const timeEl = document.getElementById('commit-time');
+    const timeEl = document.getElementById('slider-time');
   
     commitProgress = +slider.value;
     commitMaxTime = timeScale.invert(commitProgress);
